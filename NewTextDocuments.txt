@@ -1,0 +1,21 @@
+Hey , you came till here so i think you really need this 
+
+there is too many ways 
+first is using just grep
+use this : grep '^.....$' /usr/share/dict/words
+
+so it might be confusing and lets explain it first.
+by using the grep you'll look for a pattern in a file or directory , example : grep "durak" /usr/mint 
+"/usr/mint" is an e.g for directory you should use your file directory or folder directory instead of that i wrote .	`	
+so lets head the main thing 
+you see the $ and ^ symbols ?
+you should put the dots Based on the number of letters in the words . like in a crossword puzzle the "bomb" word will be like = "B..B"
+and for the words you should make a structure like bomb example .
+
+lets say in a crossword puzzle the word of "classic" is like "Cla..s.c"
+so we write this command in our Linux command line : 
+grep "cla..s.c" /usr/share/dict/words
+
+result : classic
+
+"EZ"
