@@ -15,7 +15,7 @@ and for the words you should make a structure like bomb example .
 lets say in a crossword puzzle the word of "classic" is like "Cla..s.c"
 so we write this command in our Linux command line : 
 grep "cla..s.c" /usr/share/dict/words
-
+*THIS COMMAND WILL WORK ON EVERY LINUX DISTRIBUTION , DEBIAN , FEDORA , UBUNTU . *
 result : classic
 
 "EZ"
